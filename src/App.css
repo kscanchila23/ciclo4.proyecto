@@ -36,3 +36,140 @@
     transform: rotate(360deg);
   }
 }
+
+.form-login p{
+  color:red;
+  font-size: 14px;
+}
+
+.columna1{
+  display: flex ;
+  flex-direction: column;
+  
+  gap: 40px ;
+}
+.columna1 label{
+  display: flex;
+  justify-content: start;
+}
+
+.columna2{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 40px;
+  align-items: center;
+ 
+}
+.columna2 label{
+  display: flex;
+  justify-content: start;
+}
+
+.contenedor1{
+ 
+ display: flex;
+ justify-content: space-evenly;
+ 
+  
+}
+
+.principal{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  
+}
+.fondo1{
+  user-select: none;
+	overflow-y: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgb(255, 255, 255);
+  
+	height: 100vh;
+}
+.fondo2{
+  
+	background: rgb(0, 0, 0);
+	padding: 5em;
+	display: flex;
+	flex-direction: column;
+	border-radius: 30px;
+  gap: 20px;
+  
+  align-items: center;
+	
+	
+  
+}
+h2{
+  color: white;
+}
+.fondo2 label {
+  color: white;
+  
+	padding: 0.5em;
+	display: flex;
+	flex-direction: column;
+  
+	border-radius: 30px;
+  outline: none;
+	border: none;
+	
+}
+.fondo2 input{
+  outline: none;
+	border: none;
+  border-radius: 30px;
+  
+}
+.send{
+  border-radius: 20px;
+  background-color: rgb(90, 255, 90);
+  color: rgb(0, 0, 0);
+  width: 75%;
+  border-color: white;
+  
+  
+  
+
+}
+.w{
+  background-color: rgb(255, 255, 255);
+}
+
+
+image{
+  height: 100vh;
+}
+.inicio{
+  background: rgb(255, 255, 255);
+	padding: 10em;
+	display: flex;
+	flex-direction: column;
+	border-radius: 30px;
+  gap: 20px;
+  
+  align-items: center;
+	
+
+}
+.send2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: rgb(90, 255, 90);
+  color: rgb(0, 0, 0);
+  width: 50%;
+  border-color: white;
+  height: 50px;
+  
+  
+  
+  
+
+}
